@@ -1,0 +1,50 @@
+<IRONHACK ENTREGA 2 PÁGINA 3 html>
+    <form action="EL PÁDEL IRON 4.html" method="POST">
+    
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="EL PÁDEL IRON ESTILOS.css">
+        <title>¿HAS JUGADO ALGUNA VEZ AL PÁDEL?</title>
+    </head>
+    <body>
+    
+        <header>
+            <h1>¿HAS JUGADO ALGUNA VEZ AL PÁDEL?</h1>
+            <nav>
+                <ul>
+                    <li><a href="EL PÁDEL IRON 1.html">¿Qué es el pádel?</a></li>
+                    <li><a href="EL PÁDEL IRON 2.html">Historia</a></li>
+                    <li><a href="EL PÁDEL IRON 3.html">¿Has jugado alguna vez?</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section>
+            <h2><u>Completa el Formulario</u></h2>
+                            <form action="procesar_formulario.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="padel">¿Has jugado alguna vez al pádel?</label>
+
+            <select id="padel" name="padel" required>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+    
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    
+        <footer>
+            <p>&copy; 2023 EL PÁDEL. RICARDO GÓMEZ</p>
+        </footer>
+    
+    </body>
+      
+</form>
+    </html>
